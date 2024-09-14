@@ -39,7 +39,7 @@
         android:drawablePadding="5dp"
         android:hint="Gmail"
         android:padding="18dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorHint="#4CAF50"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +58,7 @@
         android:drawablePadding="5dp"
         android:hint="Tên đăng nhập"
         android:padding="18dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorHint="#4CAF50"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -77,7 +77,7 @@
         android:drawablePadding="5dp"
         android:hint="Mật khẩu"
         android:padding="18dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorHint="#4CAF50"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -88,7 +88,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnRegiter"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#4CAF50"
@@ -115,16 +115,15 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="22115053122339-Hồ văn Thanh"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036" />
-
-
+        app:layout_constraintTop_toBottomOf="@+id/txt_exist"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

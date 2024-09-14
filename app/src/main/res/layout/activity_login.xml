@@ -40,15 +40,14 @@
         android:drawablePadding="5dp"
         android:hint="Gmail"
         android:padding="18dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorHint="#4CAF50"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.594"
+        app:layout_constraintVertical_bias="0.457"
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -61,17 +60,17 @@
         android:drawablePadding="5dp"
         android:hint="Mật khẩu"
         android:padding="18dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorHint="#4CAF50"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.457"
+        app:layout_constraintVertical_bias="0.587"
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btn_DN"
+        android:id="@+id/btnLogin"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#4CAF50"
@@ -114,6 +113,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.831"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
